@@ -8,8 +8,10 @@ jquery.custom.placeholder
 
     $(selector).customPlaceholder();
 
+
 Возможность визуального оформления в современных браузерах:
 
     $(selector).customPlaceholder(true);
+
 
 По умолчанию стили наследуются от input этого же родителя. Для задания стилей, отличных от наследуемых элементу добавляется класс "custom_placeholder".
