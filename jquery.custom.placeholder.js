@@ -4,11 +4,11 @@
  * http://www.intensa.ru
  */
 
-jQuery.fn.customPlaceholder = function() {
+jQuery.fn.customPlaceholder = function(all) {
 	$('.custom_placeholder').remove();
 	$(this).each(function(indx, element){
 		var plTest = document.createElement('input');
-		if( !('placeholder' in plTest) || 1 ){
+		if( !('placeholder' in plTest) || all ){
 			$(this).each(function(){
 				var el = $(this);
 				var elParent = el.parent();
