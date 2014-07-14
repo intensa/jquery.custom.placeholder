@@ -1,6 +1,6 @@
 jquery.custom.placeholder
 =========================
-Плагин добавляет поддержку [placeholder](http://htmlbook.ru/html/input/placeholder) в старых браузерах и возможность визуального оформления в современных.
+Плагин добавляет поддержку [placeholder](http://htmlbook.ru/html/input/placeholder) в старых браузерах и возможность визуального оформления в современных браузерах.
 
 Demo
 -----------
