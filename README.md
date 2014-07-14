@@ -4,6 +4,10 @@ jquery.custom.placeholder
 
 Применение
 =========================
+<div class="field">
+    <input type="text" name="name" value="" plasholder="Введите ваше имя" />
+</div>
+
 Добавление поддержки placeholder в старых браузерах: $(selector).customPlaceholder();
 Возможность визуального оформления в современных браузерах: $(selector).customPlaceholder(true);
 
